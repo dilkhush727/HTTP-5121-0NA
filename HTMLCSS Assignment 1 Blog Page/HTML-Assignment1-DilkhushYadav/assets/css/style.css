@@ -1,0 +1,246 @@
+/*Common Area*/
+body{
+	background-color: #e4e4e4;
+	font-family: sans-serif;
+	margin: 0;
+	font-size: 18px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	transition: all .3s;
+}
+p{
+	line-height: 28px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+main{
+	display: flex;
+	margin: 20px 30px;
+	gap: 10px;
+}
+.btn-auth{
+	background-color: #000000;
+	border: none;
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+.btn-auth:hover{
+	background-color: #434343;
+	color: #fff;
+	transition: all .3s;
+}
+
+
+/*Header Area*/
+header{
+	display: flex;
+	background-color: #ffffff;
+	padding: 15px;
+	box-shadow: 0px 2px 7px #e2e2e2;
+	justify-content: space-between;
+}
+.logo{
+	color: #000;
+	font-weight: 600;
+	font-size: 30px;
+}
+nav{
+	align-self: center;
+	margin-left: auto;
+	margin-right: 40px;
+}
+.header-item{
+	align-self: center;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color: #000000;
+	margin: 0 6px;
+	font-size: 20px;
+}
+
+
+/*Article Area*/
+article{
+	width: 75%;
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px 0px #e2e2e2;
+}
+.post-title{
+	font-size: 40px;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+.content-title{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.post-image-box{
+	margin-bottom: 30px;
+}
+.post-image{
+	border-radius: 10px;
+	box-shadow: 0px 3px 10px 0px #878787;
+	width: 70%;
+}
+.media-box{
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+.media-box .media-item{
+	display: flex;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px #b4b4b4;
+}
+.media-box .media-item p{
+	align-self: center;
+	margin: 0;
+}
+.note{
+	background: #fff8bc;
+	padding: 10px;
+	border-radius: 50px;
+	line-height: normal;
+	font-size: 16px;
+	box-shadow: 0px 0px 2px 0px #ead100;
+}
+
+
+/*Comment Form Area*/
+.comment-block{
+	border-top: solid 2px #9d9d9d;
+	margin: 80px 0;
+}
+.form-box{
+	margin-bottom: 15px;
+}
+.form-title{
+	font-size: 20px;
+}
+label{
+	font-size: 16px;
+}
+input,textarea{
+	display: block;
+	width: 50%;
+	border: solid 1px #bcbcbc;
+	padding: 8px 5px;
+	border-radius: 5px;
+}
+.comment-block button{
+	background-color: #00ad08;
+	font-size: 18px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+.comment-block button:hover{
+	background-color: #009507;
+	transition: all .3s;
+	box-shadow: 0px 1px 2px 0px #000e01;
+}
+
+
+/*Aside Area*/
+aside {
+	width: 25%;
+	background: #f2f2f2;
+	padding: 15px;
+	border-radius: 10px;
+	height: fit-content;
+	position: sticky;
+	top: 10px;
+}
+aside .aside-item:not(:last-child){
+	border-bottom: solid 2px #fff;
+	padding-bottom: 20px;
+}
+aside h4{
+	font-size: 22px;
+	margin: 20px 0px 8px 0px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.categories ul li a{
+	display: inline-block;
+	padding: 4px 0px 4px 15px;
+	font-size: 18px;
+	color: #000;
+	position: relative;
+}
+.categories ul li a:hover, .categories ul li a.active{
+	color: #707070;
+	text-decoration: underline;
+}
+.categories ul li a:before {
+	content: '';
+	position: absolute;
+	background: #000;
+	top: 10px;
+	height: 6px;
+	width: 6px;
+	left: 0;
+	border-radius: 60%;
+}
+aside .tags a{
+	color: #000;
+	background-color: #fff;
+	padding: 5px 15px;
+	display: inline-block;
+	margin-bottom: 4px;
+	font-size: 14px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 2px 0px #b4b4b4;
+}
+aside .tags a:hover{
+	border-radius: 20px;
+	transition: ease .3s;
+	box-shadow: 0px 2px 4px 0px #8b8b8b;
+}
+aside .social-media ul li a{
+	display: flex;
+	font-size: 16px;
+	background: #ffffff;
+	padding: 8px;
+	margin-bottom: 8px;
+	border-radius: 4px;
+	box-shadow: 0px 1px 2px 0px #d9d9d9;
+}
+aside .social-media ul li a:hover{
+	box-shadow: 0px 2px 4px 0px #cac8c8;
+}
+aside .social-media .social-lable{
+	align-self: center;
+	margin-left: 5px;
+}
+
+
+/*Footer Area*/
+footer{
+	background-color: #000;
+	color: #fff;
+	padding: 20px 30px;
+}
+footer p{
+	margin-bottom: 0;
+}
