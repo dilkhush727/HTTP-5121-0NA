@@ -11,7 +11,8 @@ This course covers the fundamentals of semantic HTML markup and CSS. Students wi
 https://www.w3schools.com/html/default.asp
 
 # Images
-![Web Design Overview](webdesign.jpg)
+![image](https://github.com/user-attachments/assets/1b9701bc-c5ee-43b4-9226-ccd6af3e7224)
+
 
 ***Notice:*** This repository contains my weekly work for this course. Understanding HTML and CSS fundamentals is crucial for creating effective and accessible web designs.
 
